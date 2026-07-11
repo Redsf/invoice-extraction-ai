@@ -1,12 +1,34 @@
 # Invoice Data Extraction (LlamaParse)
 
-> Standalone reference build, pulled out of my [73-workflow n8n portfolio](https://github.com/Redsf/N8N-workflows). Credential-free — no secrets, API keys, or client data included.
+> Standalone reference build, pulled out of my [73-workflow n8n portfolio](https://github.com/Redsf/n8n-workflows). Credential-free — no secrets, API keys, or client data included.
 >
 > Full write-up (strategy, architecture, results) in the case study: [Redsf/invoice-automation-logistics →](https://github.com/Redsf/Redsf/blob/main/case-studies/invoice-automation-logistics.md)
 
 An email-triggered pipeline that watches an inbox for incoming invoice PDFs, converts them to structured markdown with LlamaParse (which preserves tables and line items that plain PDF-to-text extractors lose), pulls out the key invoice fields with an LLM, and appends the result to a reconciliation spreadsheet. A Gmail label prevents the same invoice from being processed twice.
 
 Built for finance and ops teams that receive recurring invoices by email and want them landed in a spreadsheet (or downstream accounting system) without manual re-typing.
+
+## Production results
+
+From the production deployment of this architecture (logistics company, finance team):
+
+| Metric | Result |
+|---|---|
+| Month-end close | **3 days → near zero** |
+| Manual invoice re-typing | **Eliminated** |
+| Duplicate processing | **0** (Gmail label guard) |
+
+Full breakdown: [case study →](https://github.com/Redsf/Redsf/blob/main/case-studies/invoice-automation-logistics.md)
+
+## Demo
+
+<!-- SCREENSHOT: n8n canvas of this workflow — save as docs/images/workflow-canvas.png and uncomment -->
+<!-- ![Workflow canvas](docs/images/workflow-canvas.png) -->
+
+<!-- SCREENSHOT: extracted invoice row landing in the reconciliation sheet — save as docs/images/sheet-output.png and uncomment -->
+<!-- ![Sheet output](docs/images/sheet-output.png) -->
+
+🎥 *Video walkthrough coming soon — invoice email in, structured row out.*
 
 ## What it does
 
