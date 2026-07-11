@@ -1,6 +1,6 @@
 # Invoice Data Extraction (LlamaParse)
 
-> Standalone reference build, pulled out of my [73-workflow n8n portfolio](https://github.com/Redsf/n8n-workflows). Credential-free — no secrets, API keys, or client data included.
+> Standalone reference build, pulled out of my [63-workflow n8n portfolio](https://github.com/Redsf/n8n-workflows). Credential-free — no secrets, API keys, or client data included.
 >
 > Full write-up (strategy, architecture, results) in the case study: [Redsf/invoice-automation-logistics →](https://github.com/Redsf/Redsf/blob/main/case-studies/invoice-automation-logistics.md)
 
