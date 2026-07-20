@@ -20,16 +20,6 @@ From the production deployment of this architecture (logistics company, finance 
 
 Full breakdown: [case study →](https://github.com/Redsf/Redsf/blob/main/case-studies/invoice-automation-logistics.md)
 
-## Demo
-
-<!-- SCREENSHOT: n8n canvas of this workflow — save as docs/images/workflow-canvas.png and uncomment -->
-<!-- ![Workflow canvas](docs/images/workflow-canvas.png) -->
-
-<!-- SCREENSHOT: extracted invoice row landing in the reconciliation sheet — save as docs/images/sheet-output.png and uncomment -->
-<!-- ![Sheet output](docs/images/sheet-output.png) -->
-
-🎥 *Video walkthrough coming soon — invoice email in, structured row out.*
-
 ## What it does
 
 1. **Receiving Invoices** (Gmail Trigger, polling every minute) watches for messages with an attachment from a specific sender.
