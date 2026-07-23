@@ -24,7 +24,7 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "8gccIjcuf3gvaoEr",
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
           "name": "OpenAi account"
         }
       },
@@ -80,7 +80,7 @@
       },
       "credentials": {
         "httpHeaderAuth": {
-          "id": "pZ4YmwFIkyGnbUC7",
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
           "name": "LlamaIndex API"
         }
       },
@@ -113,7 +113,7 @@
       },
       "credentials": {
         "gmailOAuth2": {
-          "id": "Sf5Gfl9NiFTNXFWb",
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
           "name": "Gmail account"
         }
       },
@@ -287,14 +287,14 @@
         "documentId": {
           "__rl": true,
           "mode": "list",
-          "value": "1omHDl1jpjHyrtga2ZHBddUkbkdatEr1ga9vHc4fQ1pI",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1omHDl1jpjHyrtga2ZHBddUkbkdatEr1ga9vHc4fQ1pI/edit?usp=drivesdk",
+          "value": "REPLACE_WITH_SPREADSHEET_ID",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/REPLACE_WITH_SPREADSHEET_ID/edit?usp=drivesdk",
           "cachedResultName": "Invoice Reconciliation"
         }
       },
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "XHvC7jIRR8A2TlUl",
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
           "name": "Google Sheets account"
         }
       },
@@ -325,7 +325,7 @@
       },
       "credentials": {
         "httpHeaderAuth": {
-          "id": "pZ4YmwFIkyGnbUC7",
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
           "name": "LlamaIndex API"
         }
       },
@@ -470,14 +470,14 @@
       ],
       "parameters": {
         "labelIds": [
-          "Label_5511644430826409825"
+          "REPLACE_WITH_LABEL_ID"
         ],
         "messageId": "={{ $('Receiving Invoices').item.json.id }}",
         "operation": "addLabels"
       },
       "credentials": {
         "gmailOAuth2": {
-          "id": "Sf5Gfl9NiFTNXFWb",
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
           "name": "Gmail account"
         }
       },
@@ -503,7 +503,7 @@
       },
       "credentials": {
         "httpHeaderAuth": {
-          "id": "pZ4YmwFIkyGnbUC7",
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
           "name": "LlamaIndex API"
         }
       },
@@ -611,7 +611,7 @@
       },
       "credentials": {
         "gmailOAuth2": {
-          "id": "Sf5Gfl9NiFTNXFWb",
+          "id": "REPLACE_WITH_CREDENTIAL_ID",
           "name": "Gmail account"
         }
       },
